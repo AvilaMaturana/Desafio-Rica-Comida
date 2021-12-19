@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap');
+
+/* *{
+    border: 1px solid red;
+} */
+
+body {
+    color: #373A3C;
+}
+
+.bg-secondary{
+    background-color: #373A3C!important;
+}
+.navbar-nav{
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    font-weight: regular;
+}
+
+#Cabezera hr {
+    height: 2px;
+    background-color:  rgb(0, 0, 0)  
+}
+
+#Cabezera h1, h5 {
+    color: #373A3C;
+    font-family: 'Cabin', sans-serif;
+}
+
+@media (max-width: 768px){
+    #Cabezera h1{
+        text-align: center;
+    }
+
+    #Cabezera h5{
+        text-align: center;
+    }
+
+    #Cabezera .botones{
+        text-align: center;
+    }
+}
+
+#Cabezera .tooltip{
+    width: 100%;
+}
+
+#Carousel hr {
+    height: 2px;
+    color:  black;    
+}
+
+#Carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 80px;
+    border-top: 0;
+    border-bottom: 0; 
+    background-color: #373A3C;   
+}
+
+.carousel-indicators{
+    bottom: -2rem;
+}
+
+#Parrafos hr {
+    height: 2px;
+    color:  black;    
+}
+
+#Parrafos h5{
+    text-decoration: underline;
+}
+
+#Suscribir{
+    background-color: #DC3545;
+    color: #FFFFFF;
+    padding: 5rem 0 5rem 0;
+}
+
+#Suscribir p{
+    font-family: 'Cabin', sans-serif;
+    font-weight: medium;
+    font-size: 1.5em;
+    font-weight: regular;
+}
+
+
+
+   
+
+footer{
+    background-color: #373A3C;
+}
+
+@media (max-width: 576px){
+    #Suscribir footer, .foot{
+        width: 30%;
+        
+    }           
+
+    }
