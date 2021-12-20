@@ -69,3 +69,11 @@ $(document).ready(function () {
         $("#textTres").toggle();
     });
 });
+
+
+
+funcionCorreo = () => {
+    var correo = document.getElementById("correo").value;
+
+    alert("Tu recta fue enviada  "+correo);
+}
